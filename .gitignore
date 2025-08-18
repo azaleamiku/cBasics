@@ -1,0 +1,10 @@
+# Compiled binaries and object files
+*.o
+*.out
+*.exe
+
+# Linux/macOS
+a.out
+
+# Miscellaneous
+*.log
