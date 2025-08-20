@@ -1,46 +1,50 @@
 # C Basics
 
-This repository contains a collection of fundamental C programs and code snippets, designed for learning and practicing core concepts. Each file demonstrates a specific idea, from basic syntax to functions and control flow.
+A beginner-friendly collection of C programs—simple, direct, and designed to help you learn fundamental programming concepts in C.
 
-## Current Topics
+---
 
-### Basic I/O and Syntax
-* **hello.c**: A classic "Hello, World!" program.
-* **print.c**: Demonstrates basic printing to the console.
-* **input.c**: Shows how to take and handle user input.
-* **floats.c**: An example of working with floating-point numbers.
+## What’s Inside
 
-### Control Flow and Loops
-* **if.c**: Demonstrates simple conditional logic.
-* **switch.c**: An example of a switch statement.
-* **loop.c**: Shows how to use loops to repeat code.
-* **for.c**: An example of a `for` loop.
-* **do.c**: Demonstrates a `do-while` loop.
-* **while.c**: An example of a `while` loop.
+This repository contains small, self-contained C programs that demonstrate core coding ideas such as variables, loops, functions, and basic input/output:
 
-### Functions
-* **function.c**: A simple example of creating and calling a function.
-* **greetFunction.c**: A function that prints a greeting.
-* **func.c**: Another function example.
+- **Getting Started**
+  - `hello.c` – Classic “Hello, World!” introduction
+  - `favAnimal.c` – Practice with printing and variables
 
-### Arrays and Pointers
-* **array.c**: An example of declaring and working with arrays.
-* **pointers.c**: Demonstrates how to use pointers.
+- **Math and Calculations**
+  - `add.c`, `addFunction.c` – Addition of numbers using direct code vs function approach
+  - `area.c` – Compute the area of common shapes
+  - `calc.c`, `calcFunction.c` – A small calculator: direct logic and modularized version
 
-### Problem-Solving Examples
-* **add.c**: Adds two numbers together.
-* **area.c**: Calculates the area of a shape.
-* **calc.c**: A basic calculator program.
-* **count.c**: Counts something.
-* **code.c**: A general code example.
+- **Counting and Summation**
+  - `count.c` – Basic counting loop
+  - `countSum.c` – Accumulate a total from multiple values
 
-## Planned Additions
+- **Loops and Control Flow**
+  - `fLoop.c` – A demonstration of `for` loops
+  - `ctrlWhile.c` – Looping using `while`
+  - `infiniteLoop.c` – An intentionally infinite loop (use with caution!)
 
-I plan to add more examples for more advanced topics, including:
-* File I/O
-* Structures and Unions
-* Dynamic Memory Allocation
+- **Data Types and Arrays**
+  - `floats.c` – Work with floating-point variables
+  - `array.c`, `foodArray.c` – Handle simple arrays of numbers and strings
 
-## License
+- **Functions & Modularity**
+  - `function.c` – Define and call a function
+  - `greetFunction.c` – A function specifically for greeting the user
 
-This project is open-sourced under the MIT License.
+- **Conditional Logic**
+  - `gradeChecker.c` – Check and output grade categories (pass/fail or letter grade)
+
+---
+
+## How to Compile and Run These Programs
+
+Ensure you have a C compiler (like GCC) installed. Then simply:
+
+```bash
+git clone https://github.com/azaleamiku/cBasics.git
+cd cBasics
+gcc hello.c -o hello
+./hello
