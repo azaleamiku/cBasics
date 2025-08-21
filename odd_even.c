@@ -4,16 +4,16 @@ int main() {
     int num;
 
     printf("Give me a number: ");
-    scanf("%d", &num);
+    if (scanf("%d", &num) != 1) {
+        printf("Invalid input!\n");
+        return 1; 
+    }
 
-    int result = num % 2;
-
-    if (result == 0) {
-        printf("The number you have given is an even number!\n");
+    if (num % 2 == 0) {
+        printf("The number is even!\n");
     } else {
-        printf("This number is an odd number!\n");
+        printf("The number is odd!\n");
     }
 
     return 0;
-    
 }
