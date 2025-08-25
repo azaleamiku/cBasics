@@ -1,11 +1,21 @@
 #include <stdio.h>
 
-int main(void) {
-    int toy = 5;
-    int *map = &toy;
+void setToFive(int *n) {
+    *n = 5;
+}
 
-    printf("Toy is %d\n", toy);
-    printf("Map says toy lives at %p\n", (void*)map);
-    printf("Map let's us open the box: %d\n", *map);
+int main(void) {
+    int x = 10;
+    int *ptr = &x;
+    
+    printf("x = %d\n", x);
+    printf("*ptr = %d\n", *ptr);
+    
+    *ptr = 20;
+    printf("x after *ptr = 20: %d\n", x);
+    
+    setToFive(&x);
+    printf("x after setToFive: %d\n", x);
+    
     return 0;
 }
