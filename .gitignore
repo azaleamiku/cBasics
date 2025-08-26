@@ -4,11 +4,8 @@
 # Ignore executables (common names)
 a.out
 
-# Ignore all files with no extension in the root directory (careful!)
-# This helps ignore binaries created without extensions
-/*git 
-
-# But keep source files and headers
+# Ignore all files with no extension at the root of this repo
+/*
 !*.c
 !*.h
 
