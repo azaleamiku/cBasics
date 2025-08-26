@@ -1,10 +1,18 @@
-# Compiled binaries and object files
+# Ignore compiled object files
 *.o
-*.out
-*.exe
 
-# Linux/macOS
+# Ignore executables (common names)
 a.out
 
-# Miscellaneous
-*.log
+# Ignore all files with no extension in the root directory (careful!)
+# This helps ignore binaries created without extensions
+/*
+
+# But keep source files and headers
+!*.c
+!*.h
+
+# Ignore editor or system temporary files
+*.swp
+*.tmp
+*.bak
