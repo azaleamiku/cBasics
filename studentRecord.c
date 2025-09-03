@@ -49,7 +49,7 @@ int main(void) {
             }
             printf("\n--- Student Records ---\n");
             while (fscanf(fp, "%49s %d %f", name, &roll, &marks) == 3) {
-                printf("name: %s | Roll: %d | Marks: %.2f\n", name, roll, marks);
+                printf("Name: %s | Roll: %d | Marks: %.2f\n", name, roll, marks);
             }
             fclose(fp);
         } else if (choice == 3) {
