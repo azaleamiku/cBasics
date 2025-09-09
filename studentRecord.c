@@ -26,8 +26,8 @@ int main(void) {
         if (choice == 1) {
             fp = fopen("student.txt", "a");
             if(fp == NULL) {
-            printf("Error opening file!\n");
-            exit(1);
+                printf("Error opening file!\n");
+                exit(1);
             }
 
             printf("Enter Name (No Spaces): ");
