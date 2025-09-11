@@ -8,8 +8,8 @@ int main(void) {
     int a = 2;
 
     x = round(x);
-    y = ceil(y); //round up
-    z = floor(z); //round down
+    y = ceil(y); 
+    z = floor(z); 
 
     printf("%.1f\n", x);
     printf("%.1f\n", y);
